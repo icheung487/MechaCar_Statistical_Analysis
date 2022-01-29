@@ -26,9 +26,6 @@ Above is the summary of all manufactoring lots.  The variance PSI is 62.29, whic
 However, when looking at the three lots individually they tell a different story.  Lot 1 and 2 have variance PSI of 0.98 and 7.47 respectively, which meets the variance requirement.  Lot 3 has a variance of over 150 which exceeds the weight requirement.  Lot 3 will need to be flagged since this does not meet the design specs. 
 
 ## T-Tests on Suspension Coils
-then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-Below is a screenshot of my t-test results. 
-
 In the overall t-test results, we can see the mean is about 1490, which what we say in the above summary lots.  With the p-value of 0.06, which is slighly higher than the significance level, we can say at a high-level not to reject the null hypothesis.  However, as we look at each lot it tells a different story, similiar to the above when looking at the variance PSIs. 
     * Lot 1 and 2 both have about the same mean with a p-value above the significance level. This is clear that we would NOT reject the null hypothesis.
     * Lot 3 has a mean of 1496 and a p-value of 0.04.  The p-value is less than the significance level, which indicates to reject the null hypothesis.
