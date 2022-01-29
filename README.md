@@ -40,15 +40,15 @@ Write a short description of a statistical study that can quantify how the Mecha
 In your description, address the following questions:
 
 What metric or metrics are you going to test?
-Metrics that I would test: price, maintenance, gasoline efficiency, and safety rating
+* Metrics that I would test: price, maintenance, gasoline efficiency, and safety rating
 
 What is the null hypothesis or alternative hypothesis?
-Null Hypothesis: MechaCar cars is the most cost effective among the other metric factors.
-Alternative Hypothese: MechaCar cars  is not cost effective amount the other metric factors.
+* Null Hypothesis: MechaCar cars is the most cost effective among the other metric factors.
+* Alternative Hypothese: MechaCar cars  is not cost effective amount the other metric factors.
 
 What statistical test would you use to test the hypothesis? And why?
-Since I'm looking to test more than one independent variable, I would suggest performing the multiple linear regression model.  We would determine the coorelation between price vs. the other metrics (gasoline efficiency, maintenance, and safety rating).
+* Since I'm looking to test more than one independent variable, I would suggest performing the multiple linear regression model.  We would determine the coorelation between price vs. the other metrics (gasoline efficiency, maintenance, and safety rating).
 
 
 What data is needed to run the statistical test?
-Data set that is needed is MPG, safety rating, average selling price, and average maintenance cost.
+* Data set that is needed is MPG, safety rating, average selling price, and average maintenance cost.
