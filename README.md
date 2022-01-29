@@ -30,16 +30,25 @@ then briefly summarize your interpretation and findings for the t-test results. 
 Below is a screenshot of my t-test results. 
 
 In the overall t-test results, we can see the mean is about 1490, which what we say in the above summary lots.  With the p-value of 0.06, which is slighly higher than the significance level, we can say at a high-level not to reject the null hypothesis.  However, as we look at each lot it tells a different story, similiar to the above when looking at the variance PSIs. 
-    * Lot 1 and 2 both have about the same mean with a p-value above the significance level. This is clear that we would not reject the null hypothesis.
-    * Lot 3 have a mean of 1499 and a p
-
-
+    * Lot 1 and 2 both have about the same mean with a p-value above the significance level. This is clear that we would NOT reject the null hypothesis.
+    * Lot 3 has a mean of 1496 and a p-value of 0.04.  The p-value is less than the significance level, which indicates to reject the null hypothesis.
 
 ![image](https://github.com/icheung487/MechaCar_Statistical_Analysis/blob/main/Images/t-test.png)
+
 ## Study Design: MechaCar vs Competition.
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:
+
 What metric or metrics are you going to test?
+Metrics that I would test: price, maintenance, gasoline efficiency, and safety rating
+
 What is the null hypothesis or alternative hypothesis?
+Null Hypothesis: MechaCar cars is the most cost effective among the other metric factors.
+Alternative Hypothese: MechaCar cars  is not cost effective amount the other metric factors.
+
 What statistical test would you use to test the hypothesis? And why?
+Since I'm looking to test more than one independent variable, I would suggest performing the multiple linear regression model.  We would determine the coorelation between price vs. the other metrics (gasoline efficiency, maintenance, and safety rating).
+
+
 What data is needed to run the statistical test?
+Data set that is needed is MPG, safety rating, average selling price, and average maintenance cost.
