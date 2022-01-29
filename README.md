@@ -9,10 +9,12 @@ From the above model summary we can see that:
 The vehicle weight, spoiler_angle and AWD provide a non-random amount of variance to the mpg values.  All three have the lowest P-value. 
 
 * Is the slope of the linear model considered to be zero? Why or why not?
+
 This linear model indicates that the slope is NOT zero.  The reason why it is not zero is because the p-value (5.35e-11), is much smaller than the significance level of 0.05%. This shows that there is sufficient evidence to reject our null hypothesis. 
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-* The model shows a R-square value of a 0.7149, which equates to about 71% mpg predictions will be concluded by this model.  This is a high consideration that the model will predict mpg values correctly.  For these reasons, we can say we are 71% confident that this model can predict effectivelty. 
+
+The model shows a R-square value of a 0.7149, which equates to about 71% mpg predictions will be concluded by this model.  This is a high consideration that the model will predict mpg values correctly.  For these reasons, we can say we are 71% confident that this model can predict effectivelty. 
 
 
 ## Summary Statistics on Suspension Coils
