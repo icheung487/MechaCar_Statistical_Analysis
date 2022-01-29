@@ -4,6 +4,7 @@
 ![image](https://github.com/icheung487/MechaCar_Statistical_Analysis/blob/main/Images/Summary.png)
 
 From the above model summary we can see that: 
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 * The vehicle weight, spoiler_angle and AWD provide a non-random amount of variance to the mpg values.  All three have the lowest P-value. 
