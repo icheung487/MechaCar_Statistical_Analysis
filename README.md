@@ -5,8 +5,9 @@
 
 From the above model summary we can see that: 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-* The vehicle weight, spoiler_angle and AWD provide a non-random amount of variance to the mpg values.  All three have the lowest P-value. 
-*
+
+The vehicle weight, spoiler_angle and AWD provide a non-random amount of variance to the mpg values.  All three have the lowest P-value. 
+
 * Is the slope of the linear model considered to be zero? Why or why not?
 This linear model indicates that the slope is NOT zero.  The reason why it is not zero is because the p-value (5.35e-11), is much smaller than the significance level of 0.05%. This shows that there is sufficient evidence to reject our null hypothesis. 
 
