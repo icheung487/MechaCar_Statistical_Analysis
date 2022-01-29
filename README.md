@@ -16,16 +16,26 @@ This linear model indicates that the slope is NOT zero.  The reason why it is no
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 ![image](https://github.com/icheung487/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)
 
 Above is the summary of all manufactoring lots.  The variance PSI is 62.29, which is less than the requirement of 100 pounds per square.  Overall, the population meets the PSI variance requirements as mentioned above. 
+
 ![image](https://github.com/icheung487/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 
 However, when looking at the three lots individually they tell a different story.  Lot 1 and 2 have variance PSI of 0.98 and 7.47 respectively, which meets the variance requirement.  Lot 3 has a variance of over 150 which exceeds the weight requirement.  Lot 3 will need to be flagged since this does not meet the design specs. 
 
 ## T-Tests on Suspension Coils
 then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Below is a screenshot of my t-test results. 
 
+In the overall t-test results, we can see the mean is about 1490, which what we say in the above summary lots.  With the p-value of 0.06, which is slighly higher than the significance level, we can say at a high-level not to reject the null hypothesis.  However, as we look at each lot it tells a different story, similiar to the above when looking at the variance PSIs. 
+    * Lot 1 and 2 both have about the same mean with a p-value above the significance level. This is clear that we would not reject the null hypothesis.
+    * Lot 3 have a mean of 1499 and a p
+
+
+
+![image](https://github.com/icheung487/MechaCar_Statistical_Analysis/blob/main/Images/t-test.png)
 ## Study Design: MechaCar vs Competition.
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:
